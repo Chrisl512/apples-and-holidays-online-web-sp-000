@@ -56,8 +56,8 @@ def all_supplies_in_holidays(holiday_hash)
       value.each do |sec_key, sec_value|
         all_cap = sec_key.to_s.split('_').map(&:capitalize).join(' ')
         puts "  #{all_cap}: #{sec_value.join(", ")}"
-end
-end
+      end
+  end
 end
 
 
