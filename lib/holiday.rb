@@ -69,7 +69,7 @@ def all_holidays_with_bbq(holiday_hash)
     value.each do |sec_key, sec_value|
       if sec_value.include?("BBQ")
         bbq_included << sec_key
-        bbq_included
+        return bbq_included
 end
 end
 end
